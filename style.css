@@ -1,0 +1,279 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	/* background-color: #5428; */
+}
+li{
+	list-style: none !important;
+}
+a{
+	text-decoration: none !important;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 20px;
+    line-height: 35px;
+}
+.header-section{
+	width: 100%;
+}
+.top-nav{
+	width: 100%;
+	height: 128px;
+}
+.top-nav .navhi{
+	line-height: 90px;
+}
+.navbar-nav .nav-item .nav-link-cu{
+	margin-right: 35px;
+	font-weight: 600;
+	color: black;
+}
+.navbar-nav .nav-item .active{
+	background-color: #ff6405;
+	padding: 8px 15px;
+	border-radius: 5px;
+	color: white;
+}
+
+.navbar-nav .nav-item:last-child .nav-link-cu{
+	margin-right: 0px;
+}
+/* ========== End of Header section ========== */
+
+.showCase-section{
+	width: 100%;
+	background-image: url(../image/bg-01-1920x718.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.showCase-content img{
+	width: 100%;
+}
+.showCase-content h1{
+	font-family: Amatic SC;
+	font-size: 5.5em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	padding-top: 94px;
+}
+.showCase-content svg{
+	fill: white;
+}
+.showCase-content .showCase-text p{
+	color: white;
+	line-height: 2em;
+	padding: 20px 0px;
+}
+.showCase-content .showCase-text button{
+	border: 0px;
+	padding: 10px 15px;
+	background-color: #ff6405;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+.welcome-section{
+	width: 100%;
+	height: auto;
+}
+.welcome-section .welcom-content{
+	margin-top: 100px;
+}
+.welcom-p{
+	color: #444;
+}
+.welcome-section .welcom-content h1{
+	font-family:  Amatic SC;
+	font-size: 3em;
+	padding-bottom: 20px;
+	color: #554e9e;
+	font-weight: bold;
+}
+.welcome-section .welcom-content p{
+	line-height: 30px;
+	padding-top: 10px;
+}
+.welcome-section .welcom-content button{
+	padding: 10px 15px;
+	border: none;
+	background-color: #ff6501;
+	color: white;
+}
+.welcome-section .welcom-content img{
+	width: 100%;
+}
+/*============================*/
+/*choosus content section*/
+/*============================*/
+.choosUs-section{
+	width: 100%;
+	background-color: #f7f7f7;
+	padding-bottom: 90px;
+	margin-top: 90px;
+}
+.choosUs-heading{
+	text-align: center;
+	padding-top: 130px;
+}
+.choosUs-heading h1{
+	font-family: Amatic SC;
+	font-size: 4em;
+	font-weight: bold;
+	color: #554e9b;
+}
+.choosUs-heading svg{
+	fill: #554e9b;
+}
+.choosUs-content .colmon{
+	display: flex;
+}
+.choosUs-content .colmon img{
+	width: 70px;
+}
+.choos-p{
+	color: #444;
+	margin-top: 20px;
+}
+.choosUs-content .colmon h2{
+	/*font-size: 1.5em;*/
+}
+.colmon i{
+	font-size: 1.5rem;
+}
+.colmon img{
+	width: 80px;
+	height: 80px;
+}
+.col-content{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.mt-top{
+	/*margin-top: 120px;*/
+}
+.col-content h2{
+
+}
+/*====================*/
+/*Programs section*/
+/*====================*/
+.Programs-section{
+	width: 100%;
+	padding-bottom: 4.5rem;
+}
+.Programs-heading{
+	text-align: center;
+	padding-top: 130px;
+}
+.Programs-heading h1{
+	font-family: Amatic SC;
+	font-size: 4em;
+	font-weight: bold;
+	color: #554e9b;
+}
+.Programs-heading svg{
+	fill: #554e9b;
+}
+.program-p{
+	width: 70%;
+	margin: auto;
+	line-height: 1.75rem;
+	margin-top: 2.5em;
+}
+.program-p p{
+	color: #444;
+}
+.program-col img{
+	border-radius: 10px;
+	width: 100%;
+}
+/*============*/
+/*TextImonial section*/
+/*============*/
+.Testimonials-section{
+	width: 100%;
+	height: auto;
+	background-image: url('./image/bg-02-1920x748.jpg');
+	padding-bottom: 6rem;
+}
+.Testimonials-heading{
+	text-align: center;
+	padding-top: 130px;
+}
+.Testimonials-heading h1{
+	font-family: Amatic SC;
+	font-size: 4em;
+	font-weight: bold;
+	color: #ffff;
+}
+.Testimonials-heading svg{
+	fill: #fff;
+}
+.colmon i{
+	font-size: 1.5rem;
+}
+.colmon img{
+	width: 80px;
+	height: 80px;
+}
+.col-content{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.mt-top{
+	/*margin-top: 120px;*/
+}
+.card-text{
+	padding-bottom: 2rem;
+	color: #444;
+}
+.testinomonial-row{
+	position: relative;
+}
+.testinomonial-row .pb-10{
+	padding-bottom: 7rem;
+}
+
+.testinimol-content{
+	position: relative;
+}
+.testinomomial-per{
+	position: absolute;
+	top: 70%;
+	left: 10%;
+}
+.testinomomial-per img{
+	border-radius: 50%;
+}
+.testinomomial-per h5,p{
+	color: #fff;
+}
+/*=================*/
+/*gallery-section*/
+/*=================*/
+.gallery-section{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+}
+.gallery-section img{
+	width: 100%;
+}
+.google-map{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+}
+.footer-container{
+	margin-top: 45px;
+}
